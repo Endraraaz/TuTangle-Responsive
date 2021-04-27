@@ -1,5 +1,4 @@
 
-/* end of floating and centering */
 /* start of header css */
 .header-left{
 	width: 62.04690831556503%;
@@ -402,6 +401,131 @@ ul.main-body-list li{
 }
 /*End of footer css*/
 
+/*Start of media query for max width 960px*/
+
+@media screen and (max-width:960px) {
+	.header-left {
+
+		display: block;
+		width: 100%;
+
+	}
+	.tab{
+		padding: 0px;
+	}
+	.tab ul li {
+		display: block;
+	float: none;
+	width: 100%;
+		background: #dddddd;
+	}
+
+	.tab-set{
+		height: auto;
+		background: none;
+
+	}
+	.tab ul li a {
+		width: 100%;
+	text-align: center;
+
+	}
+	.tab ul li:hover a{
+		background-color: #727272;
+		background-image: none;
+		color: #ffffff;
+	}
+	.tab ul li.active a{
+		background-color: #727272;
+		background-image: none;
+		color: #ffffff;
+
+	}
+	.tab-set-title{
+		width: 49%;
+		display: inline-block;
+		font-size: 12px;
+
+		background-color:  #727272;
+
+		margin-bottom: 5px;
+	}
+	.form{
+		width:auto;
+		/*margin-left: 23px;*/
+
+		padding-bottom: 10px;
+		background-color: #7dd9e8;
+	}
+	.input-box{
+		margin-right: 7px;
+		height: 20px;
+		width: 276px;
+		background-image: url("../images/input.png");
+
+	}
+	.input-box input{
+		width:245px;
+		border: none;
+		border-color: transparent;
+		background: none;
+		font-size: 10px;
+		padding-left: 7px;
+		outline: none;
+
+
+	}
+
+	.header-left.image {
+		float: left;
+	}
+
+	.header-left.form {
+		float: left;
+	}
+
+	.form {
+		margin-left: 23px;
+		float: left;
+	}
+
+	.header-right {
+		float: left;
+	}
+
+	.header-r-name {
+		float: left;
+		padding-left: 5px;
+	}
+
+	ul.header-r-list.right-block-list {
+		padding-left: 5px;
+		float: left;
+	}
+
+	.nav-bar-list {
+		float:none;
+	}
+
+	.nav-bar-notifications {
+		width:auto;
+		float: left;
+
+	}
+	ul.notification-list li {
+		display: inline;
+		margin-right: 31px;
+		margin-left: 10px;
+
+	}
+	.bg-image-fix {
+		background: none;
+	}
+	.search-button{
+		float: left;
+	}
+}
+/*End of the media query for max width 960px*/
 
 /*Start of the media query for max width 600px*/
 @media screen and (max-width:600px){
@@ -487,7 +611,7 @@ ul.main-body-list li{
 	}
 	.tab-set-title {
 		 padding-left: 0px;
-		font-size: 12px;
+		 font-size: 12px;
 		 padding-right: 0px;
 	}
 	.input-box{
@@ -526,6 +650,9 @@ ul.main-body-list li{
 		outline: none;
 
 
+	}
+	.footer-list{
+		padding-right: 5px;
 	}
 }
 /*End of the media query of max width 332px*/

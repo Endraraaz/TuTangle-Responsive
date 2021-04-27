@@ -68,7 +68,7 @@ a{
  .tab-list{
 	 display: block;
  }
- .profile-contrainer{
+ .profile-container{
 	 width: 72.28412256267409%;
  }
 .footer{
@@ -83,6 +83,26 @@ a{
 .clear-fix:after{
 	clear: both;
 }
+.float-l{
+	float: left;
+}
+.float-r{
+	float: right;
+}
+.center{
+	margin-left: auto;
+	margin-right: auto;
+}
+a{
+	font-family:Arial;
+	text-decoration: none;
+	color: black;
+
+}
+.clear-right{
+	clear: right;
+}
+
 .search-bar-right{
 	background: url("../images/right-search-input.jpg") no-repeat top right;
 	cursor: pointer;
