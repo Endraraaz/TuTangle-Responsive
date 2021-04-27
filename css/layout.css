@@ -45,7 +45,7 @@ a{
 	clear: right;
 }
 .col3-left-layout{
-	max-width:58.6253em;
+	max-width: 938.0048px;
 	padding-top: 30px;
 	padding-bottom: 31px;
 
@@ -54,7 +54,7 @@ a{
 	width:20.68230277185501%;
 }
 .main-column{
-	width: 76.54584221748401%/*718px;*/
+	width: 76.54584221748401%; /*718px;*/
 }
 
 .main-column-main-block{
@@ -72,7 +72,7 @@ a{
 	 width: 72.28412256267409%;
  }
 .footer{
-	max-width:  58.625em;/*938px;*/
+	max-width:  938px;
 	background-color: #727272;
 }
 .clear-fix:before,

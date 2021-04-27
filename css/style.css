@@ -8,13 +8,13 @@
 	width:245px;
 }
 .header-center{
-	max-width: 58.625em;
+	max-width: 938px;
 }
 .nav-bar-background{
 	background: #f5f5f5;
 }
 .nav-bar{
-	max-width: 58.6253em;
+	max-width: 938.0048px;
 }
 
 .form{
@@ -30,10 +30,6 @@
 	background-repeat: no-repeat;
 }
 
-
-/* .header-right{
-
-} */
 .search-button{
 	height: 20px;
 	display: block;
@@ -57,10 +53,7 @@
 	font-size:15px;
 	font-weight:bold;
 }
-/* .list-block{
 
-
-} */
 .right-block-list{
 	clear: both;
 }
@@ -140,12 +133,7 @@ ul.left-column-block-list{
 	position: absolute;
 	right: 7%;
 }
-/*.download-icon{*/
-	/*height:12px; */
-	/*width:14px; */
-	/*background-color: purple;*/
 
-/*}*/
 .main-column-title-block{
 	padding-left: 2px;
 }
@@ -171,9 +159,6 @@ ul.left-column-block-list{
 	float: none;
 	width: 50%;
 }
-/* .tab ul li a{
-
-} */
 .tab-set-title{
 	line-height: 39px;
 
@@ -238,10 +223,6 @@ ul.header-r-list{
 ul.header-r-list li a:hover{
 	color: #ffffff;
 }
-/* ul.nav-list-item{
-
-} */
-
 
 ul.nav-list-item li{
 	display: inline;
@@ -316,9 +297,7 @@ ul.notification-list li a.request.active{
 	background-position: left;
 	background-repeat: no-repeat;
 }
-/* .notification-list li a.active{
 
-} */
 ul.notification-list li a.request
 ul.notification-list li~li{
 	margin-left: 32px;
@@ -355,12 +334,7 @@ ul.main-body-list li{
 .tab ul li.margin{
 	margin-left: 20px;
 }
-/*.tab ul li:nth-child(3){*/
-	/*margin-left: 12px;*/
-/*}*/
-/*.tab ul li:nth-child(4){*/
-	/*margin-right: 0px;*/
-/*}*/
+
 .tab ul li.active a{
 	background-image: url("../images/tab-active.png");
 	background-repeat: no-repeat;
@@ -380,9 +354,7 @@ ul.main-body-list li{
 	text-align: center;
 }
 
-/* .main-tab{
 
-} */
 .profile img{
 	width:100%;
 	height:100%;
@@ -418,10 +390,7 @@ ul.main-body-list li{
 .blue{
 	color: #33a9ab;
 }
-/*.profile-detail2 a.blue{*/
-	/*border-spacing: 2px;*/
-	/*border-right: 1px solid #000000;*/
-/*}*/
+
 .profile-text .blue{
 		color: #44b4c2;
 }
@@ -433,10 +402,6 @@ ul.main-body-list li{
 }
 /*End of footer css*/
 
-/*Start of media query for max width 960px*/
-
-
-/*End of the media query for max width 960px*/
 
 /*Start of the media query for max width 600px*/
 @media screen and (max-width:600px){
@@ -509,9 +474,6 @@ ul.main-body-list li{
 	body{
 		width: 320px;
 	}
-	/* .header{
-
-	} */
 	.nav-bar-notifications{
 		float: left;
 	}
@@ -543,7 +505,6 @@ ul.main-body-list li{
 	}
 	.form{
 		width: 57.7319587628866%;
-		/*margin-left: 23px;*/
 		padding-top: 20px;
 		padding-bottom: 10px;
 		background-color: #7dd9e8;
@@ -566,7 +527,5 @@ ul.main-body-list li{
 
 
 	}
-/*End of the media query of max width 332px*/
-
-
 }
+/*End of the media query of max width 332px*/
